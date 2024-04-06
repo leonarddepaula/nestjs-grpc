@@ -41,6 +41,12 @@ $ npm run start
 # watch mode
 $ npm run start:dev
 
+# watch mode App bolsa-valores
+$ npm run start:dev bolsa-valores
+
+# watch mode App nestjs-grpc
+$ npm run start:dev nestjs-grpc
+
 # production mode
 $ npm run start:prod
 ```
@@ -56,6 +62,13 @@ $ npm run test:e2e
 
 # test coverage
 $ npm run test:cov
+```
+## Running Docker
+
+```bash
+
+$ docker compose up 
+
 ```
 
 ## Support
